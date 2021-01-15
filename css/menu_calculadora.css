@@ -1,0 +1,24 @@
+
+.corriente{
+	margin-top: 60px;
+	margin-left: 20px;
+	padding: 20px;
+	text-align: center;
+	color:#F28D13;
+	font-size: 30px;
+}
+
+.calculadora{
+	margin-left: 20px;
+	padding: 10px;
+	text-align: center;
+	color: #F28D13;
+	height: 60px;
+}
+
+
+/*input {
+	padding: 5px 5px;
+	height: 30px;
+	width: 150px;
+} */

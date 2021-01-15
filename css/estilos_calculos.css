@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  color: #F28D13;
+  font-family: sans-serif;
+}
+
+.calculos form  {
+  width: 450px;
+  margin: auto;
+  background: #28285b;
+  padding: 20px;
+  margin-top: 20px;
+}
+.calculos h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #F28D13;
+}
+.calculos label, input,select {
+  width: 100%;
+  display: block;
+  font-size: 1.2em;
+}
+.calculos input, select {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.calculos input[type="submit"] {
+  width: 30%;
+  margin: auto;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.calculos {
+  width: 500px;
+  margin: auto;
+  background: #28285b;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.calculos p {
+  color: #F28D13;
+}
+
+.calculos li a {
+  color: #fff;
+  padding: 0 10px;
+  margin-top: 60px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.calculos a:hover{
+    background: #ccc;
+    color: #28285b;
+}
+
+/*Ayuda inicio*/
+
+.ayuda {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px;
+}
+
+.ayuda li {
+  list-style: none;
+}
+
+.ayuda li a{
+  color: #28285b;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+/*Ayuda final*/
+

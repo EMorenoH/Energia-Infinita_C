@@ -1,0 +1,14 @@
+
+
+.columna {
+            column-count:2;
+        }
+
+.columna h1 {
+            column-span:all;
+        }
+
+.columna img {
+            display:block;
+            column-span:all;
+        }

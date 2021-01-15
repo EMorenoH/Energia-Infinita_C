@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*   Vienen de estilos.css empieza */
+header{
+    width: 100%;
+    height: 70px;
+    background: #28285b;
+   /* border-bottom: 1px solid #3c78d8;*/
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+/*   Vienen de estilos.css termina */
+
+
+
+
+/*   Vienen de main.css empieza */
+
+.container-header{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;    
+}
+
+.logo-title{
+    display: flex;
+}
+
+.logo-title h4{
+    color: white;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.logo-title img{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.icon-menu{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: white;
+    font-size: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.icon-menu:hover{
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/*Menu*/
+
+.container-menu{
+    width: 50%;
+    height: 100vh;
+    background: -webkit-linear-gradient(left bottom, black, #5013f7);
+    opacity: .9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.redes-close{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.redes-close label{
+    font-size: 26px;
+    margin: 6px;
+    color: white;
+}
+
+.redes-close font{
+    position: absolute;
+    right: 100px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.redes-close font:hover{
+    transform: rotate(180deg);
+}
+
+
+.container-menu ul{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.container-menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.container-menu ul li a{
+    color: #F28D13; 
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+}
+
+.container-menu ul li a:before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: all 300ms;
+}
+
+.container-menu ul li a:hover:before{
+    width: 120%;
+}
+
+/*   Vienen de main.css termina */
+
+
+
+/*Ayuda inicio*/
+
+.ayuda {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+/*Ayuda final*/
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background: #F28D13;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+.row a{
+    color: #C7C7C7;
+}
+
+.row a:hover{
+    background: #ccc;
+    color: #28285b;
+    padding: 15px;
+}
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+.row2 a{
+    color: white;
+}
+.row2 a:hover{
+    background: #ccc;
+    color: #28285b;
+    padding: 15px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #28285b;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+.copyright a:hover{
+    background: #ccc;
+    color: #28285b;
+}
+
+
+.information a{
+    text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    color: #C7C7C7;
+}
+
+.information a:hover{
+    background: #ccc;
+    color: #28285b;
+}
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+
+/*Articulo*/
+
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+article{
+    width: 100%;
+   /* max-width: 1200px;*/
+    margin-top: 40px;
+    margin-left: 0px;
+    padding-right: 0px;
+    text-align: justify;
+}
+
+article h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+article hr{
+    max-width: 1200px;
+    height: 2px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+article p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 500px){
+    .details p{
+        font-size: 18px;
+    }
+}
+
+
+.led img{
+    width: 100%;
+}
+
+.formulas img{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+
+.appWhatsapp{
+    position: fixed;
+    right: 26px;
+    bottom: 70px;
+    width: 60px;
+    z-index: 1000;
+}
+.appWhatsapp img{
+    width: 100%;
+    height: auto;
+}
+
+
