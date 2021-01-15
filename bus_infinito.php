@@ -44,7 +44,7 @@
     </header>
 
     <div class="calculos">
-	    <form action="bus_infinito.php" method="post">
+	    <form action="https://github.com/EMorenoH/Energia-Infinita_C/blob/gh-pages/bus_infinito.php" method="post">
 	      <h1>Corto Circuito Por Bus Infinito</h1>
 	      <label class="label" for="">Selecciona Metodo de Cálculo: </label>
 	      <select class="select" name="sistema" id="">

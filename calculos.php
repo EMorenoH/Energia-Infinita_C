@@ -44,7 +44,7 @@
     </header>
 
     <div class="calculos">
-	    <form action="calculos.php" method="post">
+	    <form action="https://github.com/EMorenoH/Energia-Infinita_C/blob/gh-pages/calculos.php" method="post">
 	      <h1>Calc. Alimentador en B.T.</h1>
 	      <label class="label" for="">Selecciona Sistema: </label>
 	      <select class="select" name="sistema" id="">
