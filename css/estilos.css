@@ -86,7 +86,7 @@ article p{
 
 
 .container-menu{
-    width: 50%;
+    width: 100%;
     height: 100vh;
     background: -webkit-linear-gradient(left, black, #5013f7);
     opacity: .9;

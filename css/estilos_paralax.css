@@ -10,6 +10,10 @@
     --purple-light: #F28D13;
     --gray-light: #eaeaea;
     --white: #f4fffd;
+    --amarillo: #FFD85A;
+    --azul-fuerte: #28285b;
+    --naranja: #F28D13;
+
 }
 
 body {
@@ -45,8 +49,8 @@ p {
 	height: 100vh;
 	font-size: 90px;
 	font-weight: 400;
-	font-family: 'Noto Serif', serif;
-	font-style: italic;
+	font-family: 'Noto Serif', sans-serif;
+	font-style: monospace;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -57,7 +61,8 @@ p {
 /* ------------------------- */
 /* NAVBAR */
 /* ------------------------- */
-.menu {
+
+/*.menu {
 	background-color: #28285b;
 	width: 100%;
 	position: sticky;
@@ -94,6 +99,8 @@ p {
 }
 .menu li ul li a{
 	display: none;
+	position: absolute;
+	min-width: 140px;
 }
 
 .menu > li{
@@ -105,14 +112,79 @@ p {
 	width: 120%;
 	visibility: hidden;
 }
-.menu li:hover .submenu{
-	display: visible;
+.menu li:hover > ul {
+	display: block;
 
 }
 
-nav ul li:hover ul{
+nav li:hover > ul{
+	display: block;
+}*/
+
+#header {
+	background-color: var(--azul-fuerte);
+	width: 100%;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	z-index: 999;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: 'Noto Serif', inherit;
+	font-style: ;
+	margin-bottom: 60px;
+	display: ;
+
+	}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a {
+	background-color: var(--azul-fuerte);
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	font-size: 23px;
+
+}
+
+.nav li a:hover {
+	background-color: var(--amarillo);
+
+}
+
+
+.nav > li {
+	float:left;
+
+}
+
+.nav li ul {
+	display: none;
+	position:absolute;
+	min-width:350px;
+}
+
+.nav li:hover > ul {
 	display: block;
 }
+
+.nav li ul li {
+	position: relative;	
+}
+
+.nav li ul li ul {
+	right: -350px;
+	top: 0px;
+}
+
+
+
+
 
 
 
@@ -163,7 +235,7 @@ nav ul li:hover ul{
 .nosotros .enlace {
 	display: inline-block;
 	margin-top: 40px;
-	color: #28285b;
+	color: var(--azul-fuerte);
 	font-weight: 700;
 	border-bottom: 1px solid transparent;
 	transition: .3s ease all;
@@ -204,7 +276,7 @@ nav ul li:hover ul{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: #28285b;
+	background: var(--azul-fuerte);
 	overflow: hidden;
 	transition: .5s ease;
 }
@@ -228,7 +300,7 @@ nav ul li:hover ul{
 }
 
 .productos .btn-productos {
-	background-color: #28285b;
+	background-color: var(--azul-fuerte);
 	color: #fff;
 	padding: 7px 20px;
 	text-transform: uppercase;
@@ -293,7 +365,7 @@ nav ul li:hover ul{
 
 .redes-sociales {
 	padding: 10px;
-	background-color: #F28D13;
+	background-color: var(--naranja);
 }
 
 .redes-sociales img {
@@ -355,7 +427,7 @@ nav ul li:hover ul{
 footer{
     margin-top: 20px;
     width: 100%;
-    background: #F28D13;
+    background: var(--naranja);
     color: white;   
     
 }
@@ -416,7 +488,7 @@ footer{
 
 .rowx a:hover{
     background: #ccc;
-    color: #28285b;
+    color: var(--azul-fuerte);
     padding: 15px;
 }
 .colum3{
@@ -441,6 +513,8 @@ footer{
     margin-top: 10px;
     margin-left: 20px;
     max-width: 140px;
+    display: inline-block;
+    margin-bottom: .5rem;
 }
 .row2 a{
     color: white;
@@ -453,7 +527,7 @@ footer{
 
 .container-footer{
     width: 100%;  
-    background: #28285b;
+    background: var(--azul-fuerte);
 }
 
 .footer{
@@ -490,7 +564,7 @@ footer{
 
 .information a:hover{
     background: #ccc;
-    color: #28285b;
+    color: var(--azul-fuerte);
 }
 
 @media screen and (max-width: 1100px){
@@ -560,3 +634,4 @@ article p{
 .led img{
     width: 100%;
 }
+
